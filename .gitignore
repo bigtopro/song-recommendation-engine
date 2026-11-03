@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+venv311/
+ENV/
+env/
+.env
+*.log
+
+# Large files
+*.bin
+*.dylib
+*.so
+*.dll
+
+# Specific large files
+lid.176.bin
+
+# Java
+target/
+*.class
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Project specific
+labeled_comments.json
+labeled_comments_openrouter.json
+resume_checkpoint.txt
+failed_keys.json
+failed_models.json
+comment_processing.log
+
+# Comments directory - contains processed comment files
+comments/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# secrets
+.env*
+exhausted_keys.json
