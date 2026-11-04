@@ -1,0 +1,42 @@
+{
+  "clustering_timestamp": "2025-09-02T11:41:15.692855",
+  "dataset_info": {
+    "total_embeddings": 193339,
+    "embedding_dimension": 384
+  },
+  "kmeans_parameters": {
+    "n_clusters": 10,
+    "backend": "faiss_cpu"
+  },
+  "clustering_results": {
+    "total_points": 193339,
+    "n_clusters": 10,
+    "cluster_sizes": {
+      "cluster_0": 10044,
+      "cluster_1": 34324,
+      "cluster_2": 9240,
+      "cluster_3": 5954,
+      "cluster_4": 14576,
+      "cluster_5": 55864,
+      "cluster_6": 16643,
+      "cluster_7": 12874,
+      "cluster_8": 25627,
+      "cluster_9": 8193
+    },
+    "size_distribution": {
+      "min_size": 5954,
+      "max_size": 55864,
+      "mean_size": 19333.9,
+      "median_size": 13725.0,
+      "std_size": 14702.69944908077
+    }
+  },
+  "files_created": {
+    "results_csv": "/content/drive/My Drive/youtube_embeddings_project/clustering/kmeans_k10_results.csv",
+    "statistics_json": "/content/drive/My Drive/youtube_embeddings_project/clustering/kmeans_k10_statistics.json",
+    "visualizations": [
+      "/content/drive/My Drive/youtube_embeddings_project/clustering/kmeans_analysis.png",
+      "/content/drive/My Drive/youtube_embeddings_project/clustering/umap_kmeans_clusters.png"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "deduplication_timestamp": "2025-09-02T11:39:48.240627",
+  "processing_environment": "Google Colab",
+  "files": {
+    "input_file": "Lose_Yourself_Eminem_embeddings.npz",
+    "output_file": "Lose_Yourself_Eminem_embeddings_deduplicated.npz",
+    "input_path": "embeddings/Lose_Yourself_Eminem_embeddings.npz",
+    "output_path": "embeddings/Lose_Yourself_Eminem_embeddings_deduplicated.npz"
+  },
+  "original_dataset": {
+    "total_embeddings": 425100,
+    "embedding_dimension": 384,
+    "estimated_file_size_mb": 311.3525390625
+  },
+  "deduplicated_dataset": {
+    "total_embeddings": 193339,
+    "embedding_dimension": 384,
+    "estimated_file_size_mb": 141.605712890625
+  },
+  "deduplication_results": {
+    "duplicates_removed": 231761,
+    "duplicate_percentage": 54.51917195953894,
+    "size_reduction_percentage": 54.51917195953892,
+    "compression_ratio": 2.198728657953129,
+    "memory_efficiency": "Reduced from 425,100 to 193,339 embeddings"
+  },
+  "recommendations": [
+    "Use Lose_Yourself_Eminem_embeddings_deduplicated.npz for Phase 2 clustering",
+    "Dataset reduced by 54.5% - clustering will be faster",
+    "No information loss - only duplicate embeddings removed",
+    "Ready for HDBSCAN clustering with 193,339 unique embeddings"
+  ]
+}
